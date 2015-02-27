@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM dorkusprime/nodejs:0.11.8
+FROM dorkusprime/nodejs_versioned:0.11.8
 
 # Install Bower & Gulp
 RUN npm install -g bower gulp
