@@ -7,7 +7,7 @@ The `master` branch here corresponds to the `lastest` tag in Dockerhub, which in
 
 ### Base Docker Image
 
-* [dorkusprime/nodejs:0.11.9](https://registry.hub.docker.com/u/dorkusprime/nodejs/)
+* [dorkusprime/nodejs](https://registry.hub.docker.com/u/dorkusprime/nodejs/)
 
 
 ### Installation
