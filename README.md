@@ -3,7 +3,7 @@
 
 This repository contains **Dockerfile** of [Node.js](http://nodejs.org/) at a given version w/ [Bower](http://bower.io/) & [Gulp](http://gulpjs.com/) for [Docker](https://www.docker.com/)'s [automated build](https://registry.hub.docker.com/u/dorkusprime/nodejs_versioned-bower-gulp/) published to the public [Docker Hub Registry](https://registry.hub.docker.com/).
 
-Note: Because there was only one version of Node.js that I needed, there is only one version of Node.js available here (and, thus, one tag): `0.11.9`.  If you need another version, submit a PR or an issue
+The `master` branch here corresponds to the `lastest` tag in Dockerhub, which installs Bower and Gulp on top of `nodejs@latest`. Any other versions are under their own branches here, and correspond to their versioned tags in Dockerhub.
 
 ### Base Docker Image
 
@@ -16,7 +16,7 @@ Note: Because there was only one version of Node.js that I needed, there is only
 
 2. Download [automated build](https://registry.hub.docker.com/u/dorkusprime/nodejs_versioned-bower-gulp/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull dorkusprime/nodejs_versioned-bower-gulp:0.11.9`
 
-   (alternatively, you can build an image from Dockerfile: `docker build -t="dorkusprime/nodejs_versioned-bower-gulp:0.11.9" github.com/dockerfile/nodejs-bower-gulp`)
+   (alternatively, you can build an image from Dockerfile: `docker build -t="dorkusprime/nodejs_versioned-bower-gulp:latest" github.com/dockerfile/nodejs-bower-gulp`)
 
 
 ### Usage
